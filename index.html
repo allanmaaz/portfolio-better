@@ -7,25 +7,201 @@
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
   </head>
   <body>
-
-  <header class="header">
-    <a href="#home" class="logo">
-      Allan<span>Maaz</span>    </a>
+    <header class="header">
+      <a href="" class="logo"> Allan<span>Maaz</span> </a>
       <i class="bx" id="menu-icon"></i>
       <nav class="navbar">
-        <a href="#home" class="home">Home</a>
-        <a href="#about" class="about">About</a>
-        <a href="#services" class="services">Services</a>
-        <a href="#projects" class="projects">Projects</a>
-        <a href="#contact" class="contact">Contact</a>
+        <a href="#home" class="Home">Home</a>
+        <a href="#About" class="about">About</a>
+        <a href="#services" class="services1">Services</a>
+        <a href="#projects" class="projects1">Projects</a>
+        <a href="#contact" class="contact1">Contact</a>
       </nav>
       <button class="gradiant">Contact Me</button>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, it's <span>Maaz</span></h1>
+        <h3>I'm a <span>Wannabe Developer</span></h3>
+        <p>
+          You dont really have to see this paragraph its just me telling how
+          great i am and its a fact you gotta understand
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/allanmaaz" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.instagram.com/allanmaaz/"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="img1.jpg" alt="maazs pic" />
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="About" id="About">
+      <div class="about-img">
+        <img src="img2.jpg" alt="about img" />
+      </div>
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- Services -->
+<section class="services" id="services">
+  <h2 class="heading">
+    My <span>Services</span>
+  </h2>
 
-  </header>
+  <div class="services-container">
 
+    <!-- Service 1 -->
+    <div class="service-box">
+      <div class="service-info">
+        <i class="bx bxl-figma"></i>
+        <h3>Web Design</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service-box">
+      <div class="service-info">
+        <i class="bx bx-code"></i>
+        <h3>Web Development</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="service-box">
+      <div class="service-info">
+        <i class="bx bx-code-curly"></i>
+        <h3>Responsive Design</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="projects" id="projects">
+  <h2 class="heading">My <span>Projects</span></h2>
+
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-box">
+      <img src="project1.png" alt="Project 1" />
+      <h3>First Copy</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam in tempora voluptate provident quo quos voluptatibus dignissimos consequatur quae hic cupiditate corporis!</p>
+      <a href="https://allanmaaz.github.io/amazon/" target="_blank" class="project-btn">Review Project</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-box">
+      <img src="project2.png" alt="Project 2" />
+      <h3>Paper XOX Better</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam in tempora voluptate provident quo quos voluptatibus dignissimos consequatur.</p>
+      <a href="https://allanmaaz.github.io/Tic-Tac-Toe/" target="_blank" class="project-btn">Review Project</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-box">
+      <img src="project3.png" alt="Project 3" />
+      <h3>Google it bruh</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam in tempora voluptate provident quo quos voluptatibus dignissimos.</p>
+      <a href="https://allanmaaz.github.io/CurrencyConverter/" target="_blank" class="project-btn">Review Project</a>
+    </div>
+
+
+
+  </div>
+</section>
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <form action="#">
+
+    <!-- GROUP 1: Full Name + Email -->
+    <div class="input-group">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+      </div>
+
+      <div class="input-box">
+        <input type="email" placeholder="Email Address">
+      </div>
+    </div>
+
+    <!-- GROUP 2: Phone Number + Subject -->
+    <div class="input-group">
+      <div class="input-box">
+        <input type="number" placeholder="Phone Number">
+      </div>
+
+      <div class="input-box">
+        <input type="text" placeholder="Subject">
+      </div>
+    </div>
+
+    <div class="input-group-2">
+      <textarea placeholder="Your Message" cols="30"rows="10"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </div>
+
+  </form>
+</section>
+
+<footer>
+
+
+<div class="social-icons">
+          <a href="https://github.com/allanmaaz" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/allanmaaz/"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <ul class="list">
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <p class="copyright">
+    © Allan Maaz | All Rights Reserved
+  </p>
     <script src="script.js"></script>
+  
+  </footer>
   </body>
 </html>
